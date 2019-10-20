@@ -2,12 +2,12 @@ package com.string.app;
 
 public class Vocales extends Strings {
 	
-	public static int contarVocales(String cad ) {
+	public static int contarVocales(String cadena ) {
 		
 		int nVocales = 0;
 		
-		for(int index = 0; index<cad.length(); index++) {
-			switch(cad.charAt(index)) {
+		for(int index = 0; index<cadena.length(); index++) {
+			switch(cadena.charAt(index)) {
 				case 'a':case 'e':case 'i':case 'o':case 'u':
 					nVocales++;
 			}
@@ -34,5 +34,27 @@ public class Vocales extends Strings {
 			
 		return arreglo; 
 	}
+	
+	public static char[] vocalesEliminar(String cadena) {
+		
+		char arreglo[] = cadena.toCharArray();
+		
+		char letra;
+		
+		for(int i = 0; i<arreglo.length; i++) {
+			letra = arreglo[i];
+			switch(letra) {
+				case 'a': arreglo[i] = ' '; break;
+				case 'e': arreglo[i] = ' '; break;
+				case 'i': arreglo[i] = ' '; break;
+				case 'o': arreglo[i] = ' '; break;
+				case 'u': arreglo[i] = ' '; break;
+			}
+			}
+		
+		return arreglo;
+	}
+	
+
 	
 }

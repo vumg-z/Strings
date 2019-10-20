@@ -10,6 +10,8 @@ public class Strings {
 		
 		//ingresar una cadena y poner todas las vocales en mayusculas
 		
+		//ingresar una cadena y eliminar todas las vocales
+		
 		String cadena = "";
 		
 		Scanner input = new Scanner(System.in);
@@ -22,7 +24,8 @@ public class Strings {
 		//output
 			System.out.println(Vocales.contarVocales(cadena));
 			System.out.println(Vocales.vocalesMayusculas(cadena));
+			System.out.println(Vocales.vocalesEliminar(cadena));
 			
-		
+
 	}
 }
