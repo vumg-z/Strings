@@ -12,5 +12,8 @@
  - Eliminar las vocales de un string
  
 #### Explora y contribuye
-[codigo aqui](https://github.com/UrielMendozaG/Strings/tree/master/src/com/string/app)
+[aqui](https://github.com/UrielMendozaG/Strings/tree/master/src/com/string/app)
+
+#### Mas ejercicios
+[aqui](https://github.com/UrielMendozaG/Generation-Mexico/blob/master/Programacion/Java/README.md#ejercicios)
   
