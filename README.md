@@ -9,6 +9,7 @@
 #### Vocales 
  - Contar las vocales de un string.
  - Convertir todas las vocales de un string a mayusculas.
+ - Eliminar las vocales de un string
  
 #### Explora y contribuye
 [codigo aqui](https://github.com/UrielMendozaG/Strings/tree/master/src/com/string/app)
